@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+#game-board {
+    justify-content: leftwards;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px;
+    grid-template-rows: 60px 60px 60px 60px;
+}
+
+.node {
+    height: 60px;
+    width: 60px;
+}
+
+.node-t {
+    visibility: visible;
+    font-size: 15pt;
+    color: #D4D4D4;
+	background-color:#342020;
+    padding: 20px;
+}
+
+.node-f {
+	
+    font-size: 0pt;
+    color: #D4D4D4;
+	border-color: white;
+    visibility: visible;
+	background-color:#F1F1F1;
+    border-color: #D4D4D4;
+}
