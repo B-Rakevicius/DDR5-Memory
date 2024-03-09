@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en-US"> 
+  <head>
+	<meta charset="utf-8"/>
+	<meta name="ChimpTest" content="Recreated humanbenchmark.com's chimpanzee test">
+	<meta name="Author" content="Andy Wu">
+	<meta name="Date" content="May 1, 2021">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+
+	<link href="styles/styles.css" rel="stylesheet" />
+	<link href="styles/layout.css" rel="stylesheet" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="scripts/hide_section.js"> </script>
+	<script src="scripts/mem_test.js"> </script>
+
+	<title> Chimp Test </title>
+  </head>
+
+  <body>
+	<header>
+		<section id="header-text" class="section-txt">
+			<h1> Mosaic Memory Master </h1>
+			<h2> By DDR5 </a> </h2>
+		</section>
+		<button id="hide-head-button" class="hide-button"> Hide Heading </button>
+        <br/>
+		<hr/>
+	</header>
+	<main>
+		<section id="description-text" class="section-txt">
+			<h2> Test Your Working Memory </h2>
+			<h3> Idea taken from <a href="https://humanbenchmark.com/tests/chimp" target="_blank">
+				Chimpanzee Test </a> and improved upon.
+			</h3>
+			<p id="game-description"> 
+							
+				This current build is based on an earlier concept, expect changes.
+				<br/><br/>
+				Click the squares in order according to their numbers.
+                <br/>
+                The test will get progressively harder.
+
+            </p>
+		</section>
+		<button id="hide-description-button" class="hide-button"> Hide Description </button> <br/>
+		<hr/>
+		<div id="start-button-container" class="section-txt">
+			<button id="start-button"> Start </button>
+		</div>
+		<!--  Game -->
+		<div id="game-board">
+            <!-- Game nodes will be generated inside this div -->
+		</div>
+		<h3 id="game-message" class="section-txt"> Click the button above to start the test </h3>
+		<hr/>
+	</main>
+  </body>
+</html>
